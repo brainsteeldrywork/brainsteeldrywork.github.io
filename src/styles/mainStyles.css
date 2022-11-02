@@ -1,0 +1,17 @@
+.main{
+    color: dodgerblue;
+}
+
+.main h1 {
+    background-color: azure;
+}
+
+.logoImgs {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.logoImgs img {
+    margin: 2px;
+}
