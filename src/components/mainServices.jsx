@@ -1,6 +1,6 @@
 import React from "react";
 
-import "../styles/mainStyles.css"
+import "../styles/mainStyles.css";
 
 import Brasilit from "../images/LogoMarcas/Brasilit_.jpg"
 import Ecophon from "../images/LogoMarcas/Ecophon.png"
@@ -19,7 +19,7 @@ function Main() {
                 <h1>Servicos</h1>
 
                 <p>sabemos como e dificil iniciar um projeto do zero, realizar uma alteracao na estrutura
-                    <br />
+
                     escolher a empresa certa para a sua necessidade, e principalmente acertar a quantidade de materiais para evitar desperdicio.
                 </p>
 

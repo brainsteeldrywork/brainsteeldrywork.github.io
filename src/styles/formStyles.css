@@ -17,18 +17,13 @@ form h1 {
     color: dodgerblue;
 }
 
-/* .subForm {
-    /* background-color: aqua; */
-
-/* } */ */
-
 .input {
     width: 80%;
 }
 
 .button {
     display: flex;
-    justify-content: end;
+    justify-content: flex-end;
     color: aqua;
     margin-top: 5px;
 }
