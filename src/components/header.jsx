@@ -10,7 +10,25 @@ function Header() {
     return (
         <>
             <div className="headerTop">
-                <p>Marcas Parceiras</p>
+
+                <div className="menuResponsivo">
+
+
+                    <input type="checkbox" id="checkbox-menu" />
+                    <label htmlFor="checkbox-menu">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </label>
+
+                    <ul>
+                        <li>Solucoes</li>
+                        <li>Sobre Nos</li>
+                        <li>Contato</li>
+                        <li>Servicos</li>
+                    </ul>
+
+                </div>
 
                 <div className="divIcons">
                     <img src={Phone} alt="Icone Telefone" />

@@ -17,7 +17,7 @@ header {
     justify-content: space-between;
 }
 
-.divIcons img{
+.divIcons img {
     width: 30px;
     height: fit-content;
     margin-right: 5px;
@@ -38,3 +38,107 @@ h3 {
 .logoBrain {
     width: 200px;
 }
+
+.menuResponsivo {
+    display: flex;
+    justify-content: center;
+}
+
+#checkbox-menu {
+    position: absolute;
+    opacity: 0;
+    align-self: center;
+    cursor: pointer;
+}
+
+label {
+    cursor: pointer;
+    position: relative;
+    display: flex;
+    height: 38px;
+    width: 38px;
+    align-self: center;
+    justify-content: center;
+    background-color: black;
+    border-radius: 10px;
+    align-items: center;
+}
+
+label span {
+    position: absolute;
+    display: block;
+    height: 5px;
+    width: 80%;
+    border-radius: 30px;
+    background-color: dodgerblue;
+    cursor: pointer;
+}
+
+label span:nth-child(2) {
+    top: 24px;
+}
+
+label span:nth-child(3) {
+    top: 8px;
+}
+
+label span:nth-child(4) {
+    top: 16px;
+}
+
+.menuResponsivo ul {
+    list-style-type: none;
+    border: 1px solid dodgerblue;
+    height: 100%;
+    position: fixed;
+    left: 0px;
+    top: 63px;
+    background-color: aliceblue;
+    width: 20vw;
+    opacity: 0;
+    margin: auto;
+}
+
+#checkbox-menu:checked + label span:nth-child(3) {
+    transform: rotate(45deg);
+    top: auto;
+}
+#checkbox-menu:checked + label span:nth-child(1) {
+    opacity: 0;
+}
+#checkbox-menu:checked + label span:nth-child(2) {
+    transform: rotate(-45deg);
+    top: auto;
+}
+
+#checkbox-menu:checked ~ * .menuResponsivo ul {
+    opacity: 1;
+}
+
+/* .menuHamburguer {
+    border: 1px solid black;
+    width: 20px;
+    height: auto;
+    padding: 5px;
+}
+
+.menuHamburguer div {
+    background-color: black;
+    width: 18px;
+    height: 2px;
+    margin: 3px 0;
+}
+
+.menuResponsivo {
+    align-self: center;
+}
+
+
+
+.menuResponsivo:hover ul {
+    display: block;
+}
+
+.menuResponsivo li {
+    margin: 5px;
+} */
