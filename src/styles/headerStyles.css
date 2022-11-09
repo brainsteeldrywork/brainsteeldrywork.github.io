@@ -20,7 +20,7 @@ header {
 .divIcons img {
     width: 30px;
     height: fit-content;
-    margin-right: 5px;
+    margin: 5px;
 }
 
 .Patologias {
@@ -28,6 +28,7 @@ header {
     color: blue;
     padding: 5px;
     font-weight: bold;
+    border-radius: 15px;
 }
 
 h3 {
@@ -83,11 +84,12 @@ label span:nth-child(3) {
     top: 8px;
 }
 
-label span:nth-child(4) {
+label span:nth-child(1) {
     top: 16px;
 }
 
 .menuResponsivo ul {
+    transition: 0.5s ease-in;
     list-style-type: none;
     border: 1px solid dodgerblue;
     padding: 0;
@@ -127,4 +129,15 @@ label span:nth-child(4) {
     transition: 0.2s ease-in;
     transform: rotate(-45deg);
     top: auto;
+}
+
+@media screen and (max-width: 500px) {
+    .menuResponsivo ul{
+        width: 40vw;
+    }
+
+    .Patologias {
+        max-width: 132px;
+        border-radius: 25px;
+    }
 }
