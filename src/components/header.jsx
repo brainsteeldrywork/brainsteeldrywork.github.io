@@ -4,9 +4,22 @@ import logo from "../images/logo brain.jpeg"
 import Phone from "../images/Icons/telefone.png"
 
 import "../styles/headerStyles.css"
+import { useState } from "react";
+
+
+
 
 
 function Header() {
+
+    const [check, setCheck] = useState(false);
+
+    function menuDisplay() {
+
+        setCheck(!check)
+    }
+
+
     return (
         <>
             <div className="headerTop">
@@ -14,14 +27,14 @@ function Header() {
                 <div className="menuResponsivo">
 
 
-                    <input type="checkbox" id="checkbox-menu" />
+                    <input type="checkbox" id="checkbox-menu" onClick={menuDisplay} />
                     <label htmlFor="checkbox-menu">
                         <span></span>
                         <span></span>
                         <span></span>
                     </label>
 
-                    <ul>
+                    <ul style={{ opacity: check ? "1" : "0" }}>
                         <li>Solucoes</li>
                         <li>Sobre Nos</li>
                         <li>Contato</li>
