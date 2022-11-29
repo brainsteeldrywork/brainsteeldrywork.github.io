@@ -3,6 +3,8 @@ import { Formik, Field, Form, ErrorMessage } from 'formik';
 import * as yup from "yup"
 import "../styles/formStyles.css"
 import { useForm } from '@formspree/react';
+
+
 // 
 const sleep = ms => new Promise(resolve => setTimeout(resolve, ms));
 
@@ -30,7 +32,7 @@ const CheckboxExample = () => {
     return (
 
         <>
-            <h1 className='h1'>Contato</h1>
+            <h1 id='contato' className='h1'>Contato</h1>
             <div className='formContainer'>
 
                 <Formik
@@ -107,35 +109,6 @@ const CheckboxExample = () => {
                                         <ErrorMessage className='ErrorMessage' name="mensagem" component="label" />
                                     </div>
                                 </div>
-
-                                {/*
-           You do not _need_ to use <Field>/useField to get this behavior, 
-           using handleChange, handleBlur, and values works as well. 
-          */}
-                                {/* <label>
-            <input
-              type="checkbox"
-              name="projetoSelect"
-              value="founder"
-              checked={values.projetoSelect.includes('founder')}
-              onChange={handleChange}
-              onBlur={handleBlur}
-            />
-            CEO / Founder
-          </label> */}
-
-
-                                {/* Here's how you can use a checkbox to show / hide another field */}
-                                {/* {!!values.terms ? (
-            <div>
-              <label>
-                <Field type="checkbox" name="newsletter" />
-                Send me the newsletter <em style={{ color: 'rebeccapurple' }}>
-                  (This is only shown if terms = true)
-                </em>
-              </label>
-            </div>
-          ) : null} */}
 
                                 <div className='button'>
                                     <button type="submit" value="Submit" disabled={isSubmitting}>
