@@ -4,6 +4,8 @@ import * as yup from "yup"
 import "../styles/formStyles.css"
 import { useForm } from '@formspree/react';
 
+import sucess from "../images/Icons/sucess.png"
+
 
 // 
 const sleep = ms => new Promise(resolve => setTimeout(resolve, ms));
@@ -26,7 +28,16 @@ const CheckboxExample = () => {
     const [state, handleSubmit] = useForm("meqdgypl");
 
     if (state.succeeded) {
-        return <p>Thanks for joining!</p>;
+
+
+        return (
+            <>
+                <div className='modalSucess'>
+                <h2>Formulario Enviado!</h2>;
+                <img src={sucess} alt="Confirmado" srcset="" />
+                </div>
+            </>
+        )
     }
 
     return (
@@ -50,7 +61,7 @@ const CheckboxExample = () => {
                     onSubmit={async values => {
                         console.log("submiting...")
                         await sleep(1000);
-                        alert(JSON.stringify(values, null, 2));
+                        // alert(JSON.stringify(values, null, 2));
                         handleSubmit(values)
                     }
                     }
@@ -120,13 +131,6 @@ const CheckboxExample = () => {
                         </Form>
                     )}
                 </Formik>
-            </div>
-            <div className='contato'>
-                <h1>Fale Conosco</h1>
-                <div>
-                    <h3>11 9 5555-5555</h3>
-                    <p>Central De Atendimento</p>
-                </div>
             </div>
         </>
     )

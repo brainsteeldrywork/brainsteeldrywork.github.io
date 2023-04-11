@@ -84,3 +84,21 @@ label {
 .contato p {
     color: white;
 }
+
+
+.modalSucess{
+    border: 3px dodgerblue solid;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    color: aliceblue;
+    width: 80%;
+    margin: auto;
+}
+
+.modalSucess img {
+    max-width: 300px;
+}

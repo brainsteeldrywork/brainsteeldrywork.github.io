@@ -5,4 +5,6 @@ h1, p {
 
 footer {
     color: white;
+    border-top: 1px snow double;
+    margin-top: 5px;
 }
