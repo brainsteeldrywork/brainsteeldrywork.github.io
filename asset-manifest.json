@@ -1,17 +1,19 @@
 {
   "files": {
-    "main.css": "/static/css/main.abe2ee77.css",
-    "main.js": "/static/js/main.aa179072.js",
+    "main.css": "/static/css/main.0138fc4d.css",
+    "main.js": "/static/js/main.aad16c12.js",
     "static/js/787.a0b68200.chunk.js": "/static/js/787.a0b68200.chunk.js",
-    "static/media/Placo.jpg": "/static/media/Placo.c795f20c52f9ac265cd8.jpg",
-    "static/media/Brasilit_.jpg": "/static/media/Brasilit_.1c8c859bde067479a5d8.jpg",
+    "static/media/Quadro-de-distribuicao-1024x681.png": "/static/media/Quadro-de-distribuicao-1024x681.30fc9237d4a0577e0f5d.png",
+    "static/media/Road_Rage.otf": "/static/media/Road_Rage.03e8327bbbb7b1abbae9.otf",
+    "static/media/sucess.png": "/static/media/sucess.189d9f4ef95c546073c8.png",
+    "static/media/mail.png": "/static/media/mail.7f0432c3a7d36f687c69.png",
     "index.html": "/index.html",
-    "main.abe2ee77.css.map": "/static/css/main.abe2ee77.css.map",
-    "main.aa179072.js.map": "/static/js/main.aa179072.js.map",
+    "main.0138fc4d.css.map": "/static/css/main.0138fc4d.css.map",
+    "main.aad16c12.js.map": "/static/js/main.aad16c12.js.map",
     "787.a0b68200.chunk.js.map": "/static/js/787.a0b68200.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.abe2ee77.css",
-    "static/js/main.aa179072.js"
+    "static/css/main.0138fc4d.css",
+    "static/js/main.aad16c12.js"
   ]
 }
