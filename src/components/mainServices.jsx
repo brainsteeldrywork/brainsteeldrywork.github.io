@@ -5,6 +5,8 @@ import "../styles/mainStyles.css";
 import Eletrica from "../images/Servicos/Quadro-de-distribuicao-1024x681.png"
 import Cftv from "../images/Servicos/cftv.jpg"
 import Drywall from "../images/Servicos/Drywall.jpg"
+import Hidraulica from "../images/Servicos/Hidraulica.jpg"
+import Pintura from "../images/Servicos/Pintura.jpg"
 
 // import Brasilit from "../images/LogoMarcas/Brasilit_.jpg"
 // import Ecophon from "../images/LogoMarcas/Ecophon.png"
@@ -44,13 +46,13 @@ function Main() {
 
                     <div>
                         <h2>Hidraulica</h2>
-                        <img src="" alt="" />
+                        <img src={Hidraulica} alt="" />
                         <p></p>
                     </div>
 
                     <div>
                         <h2>Pintura</h2>
-                        <img src="" alt="" />
+                        <img src={Pintura} alt="" />
                         <p></p>
                     </div>
 

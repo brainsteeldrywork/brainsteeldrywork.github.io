@@ -19,6 +19,7 @@
 .servicos {
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
 }
 
 .servicos div {
