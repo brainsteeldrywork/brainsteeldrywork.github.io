@@ -1,5 +1,5 @@
 .main{
-    color: dodgerblue;
+    color: #1ed9ff;
 }
 
 .main h1 {
@@ -30,10 +30,11 @@
     flex-direction: column;
     width: 45%;
     align-items: center;
+    padding: 10px;
 }
 
 .servicos div img {
 
-    max-width: 90%;
+    width: 90%;
     
 }

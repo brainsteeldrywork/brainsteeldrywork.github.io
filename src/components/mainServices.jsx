@@ -27,33 +27,33 @@ function Main() {
                 <div className="servicos">
 
                     <div>
-                        <h2>Eletrica</h2>
+                        <h2>Elétrica</h2>
                         <img src={Eletrica} alt="" />
-                        <p></p>
+                        <h4>Realizamos instalações elétricas em residências, empresas, e prédios. Instalação, troca, e reparo de diversos equipamentos elétricos. Se estiver tendo problemas técnicos em iluminação, tomadas, disjuntores, ou até mesmo se for necessário instalação de novos pontos, é este serviço que você precisa!</h4>
                     </div>
 
                     <div>
                         <h2>Seguranca</h2>
                         <img src={Cftv} alt="" />
-                        <p></p>
+                        <h4>Realizamos serviços de instalação e Manutencao em Sistema De Alarmes e CFTV – Circuito Fechado de TV, em câmeras de segurança. Se você necessita de maior segurança em sua residência ou empresa, solicite esse serviço.</h4>
                     </div>
 
                     <div>
                         <h2>DryWall</h2>
                         <img src={Drywall} alt="" />
-                        <p></p>
+                        <h4>Sistemas em Drywall; Light Steel Frame; Painel Wall; Master Board; Tratamento termo-acústico; Sistemas de revestimentos e forros em geral. Colaboradores treinados, visando atender com máxima excelência, não somente às expectativas da empresa, mas também de nossos clientes.</h4>
                     </div>
 
                     <div>
-                        <h2>Hidraulica</h2>
+                        <h2>Hidraúlica</h2>
                         <img src={Hidraulica} alt="" />
-                        <p></p>
+                        <h4>Realizamos instalações e manutenções em encanamentos de diversos tipos. Se você está com um cano furado, vazando, ou até mesmo se necessita de um novo ponto de água, é esse serviço que você precisa!</h4>
                     </div>
 
                     <div>
                         <h2>Pintura</h2>
                         <img src={Pintura} alt="" />
-                        <p></p>
+                        <h4> Pinturas Residenciais, Prediais e Industriais.<br/> Textura Grafiato, Textura Marmorato, Textura Projetada, Preparação de superfície, Massa corrida, Massa acrílica, Pintura de fachada, Cimento queimado, Textura Arenito.</h4>
                     </div>
 
                 </div>
