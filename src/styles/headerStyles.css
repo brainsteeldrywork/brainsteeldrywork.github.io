@@ -5,11 +5,11 @@
 }
 
 .contatoHeader b {
-    color: aliceblue;
+    color: #00B0FF;
 }
 
 .contatoHeader a {
-    color: aliceblue;
+    color: #00B0FF;
     font-weight: bold;
 }
 
@@ -35,6 +35,7 @@ header {
     width: 30px;
     height: fit-content;
     margin: 5px;
+    max-height: 35px;
 }
 
 .brainSteel {
@@ -53,16 +54,16 @@ header {
 
 .Patologias {
     background-color: red;
-    color: blue;
+    color: #00B0FF;
     padding: 5px;
     font-weight: bold;
     border-radius: 15px;
 }
 
 h3 {
-    color: dodgerblue;
+    color: white;
     text-align: center;
-
+    margin: 2px;
 }
 
 .logoBrain {
@@ -102,7 +103,7 @@ label span {
     height: 5px;
     width: 70%;
     border-radius: 30px;
-    background-color: dodgerblue;
+    background-color: #00B0FF;
     cursor: pointer;
     transition: 1s ease-out;
 }
@@ -120,9 +121,10 @@ label span:nth-child(1) {
 }
 
 header ul {
+    z-index: 1;
     transition: 0.5s ease-in;
     list-style-type: none;
-    border: 1px solid dodgerblue;
+    border: 1px solid #00B0FF;
     padding: 0;
     height: 100%;
     position: absolute;
@@ -142,7 +144,7 @@ header ul li {
 
 header ul li:hover {
     padding-left: 50px;
-    border: 3px dodgerblue double;
+    border: 3px #00B0FF double;
     transition: 1s ease-in-out;
 }
 
@@ -167,6 +169,41 @@ a {
     transform: rotate(-45deg);
     top: auto;
 }
+
+.Carrossel {
+    width: 100%;
+    max-width: 90%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.carousel {
+    cursor: grab;
+    overflow: hidden;
+}
+
+.inner {
+    display: flex;
+}
+
+.item {
+    min-height: 200px;
+    padding: 10px;
+    height: 300px;
+}
+
+.item img {
+    width: -webkit-fill-available;
+    height: 90%;
+    border-radius: 10px;
+    pointer-events: none;
+}
+
+
+
+
 
 @media screen and (max-width: 500px) {
 

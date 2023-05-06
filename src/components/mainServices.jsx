@@ -8,19 +8,58 @@ import Drywall from "../images/Servicos/Drywall.jpg"
 import Hidraulica from "../images/Servicos/Hidraulica.jpg"
 import Pintura from "../images/Servicos/Pintura.jpg"
 
-// import Brasilit from "../images/LogoMarcas/Brasilit_.jpg"
-// import Ecophon from "../images/LogoMarcas/Ecophon.png"
-// import Isover from "../images/LogoMarcas/Isover.png"
-// import Owa from "../images/LogoMarcas/owa.png"
-// import Placo from "../images/LogoMarcas/Placo.jpg"
-// import Quartzolit from "../images/LogoMarcas/Quartzolit.png"
-// import Sonex from "../images/LogoMarcas/Sonex.png"
+import Brasilit from "../images/LogoMarcas/Brasilit_.jpg"
+import Ecophon from "../images/LogoMarcas/Ecophon.png"
+import Isover from "../images/LogoMarcas/Isover.png"
+import Owa from "../images/LogoMarcas/owa.png"
+import Placo from "../images/LogoMarcas/Placo.jpg"
+import Quartzolit from "../images/LogoMarcas/Quartzolit.png"
+import Sonex from "../images/LogoMarcas/Sonex.png"
+import Intelbras from "../images/LogoMarcas/Intelbras.png"
 
 
 function Main() {
 
     return (
         <>
+
+            <div className="Marcas">
+                <h2>As Melhores Marcas</h2>
+
+                <h3>Trabalhamos com as Melhores Marcas do Mercado Para Garantir Qualidade e Durabilidade, Com Produtos Confiáveis e inovadores. <br /><br />
+                    Somos Especialistas Em Instalacao e Manutencao Dos Produtos Das Seguintes  Marcas:
+                </h3>
+                <br />
+                <div className="logoImgs">
+
+                    <div>
+                        <img src={Brasilit} alt="Logo Brasilit" />
+                    </div>
+                    <div>
+                        <img src={Ecophon} alt="Logo Ecophon" />
+                    </div>
+                    <div>
+                        <img src={Isover} alt="Logo Isover" />
+                    </div>
+                    <div>
+                        <img src={Owa} alt="Logo Owa" />
+                    </div>
+                    <div>
+                        <img src={Placo} alt="Logo Placo" />
+                    </div>
+                    <div>
+                        <img src={Quartzolit} alt="Logo Quartzolit" />
+                    </div>
+                    <div>
+                        <img src={Sonex} alt="Logo Sonex" />
+                    </div>
+                    <div>
+                        <img style={{ maxWidth: "300px" }} src={Intelbras} alt="Logo Intelbras" />
+                    </div>
+                </div>
+            </div>
+
+
             <div className="main">
                 <h1>Servicos</h1>
 
@@ -53,35 +92,11 @@ function Main() {
                     <div>
                         <h2>Pintura</h2>
                         <img src={Pintura} alt="" />
-                        <h4> Pinturas Residenciais, Prediais e Industriais.<br/> Textura Grafiato, Textura Marmorato, Textura Projetada, Preparação de superfície, Massa corrida, Massa acrílica, Pintura de fachada, Cimento queimado, Textura Arenito.</h4>
+                        <h4> Pinturas Residenciais, Prediais e Industriais.<br /> Textura Grafiato, Textura Marmorato, Textura Projetada, Preparação de superfície, Massa corrida, Massa acrílica, Pintura de fachada, Cimento queimado, Textura Arenito.</h4>
                     </div>
 
                 </div>
 
-                {/* <div className="logoImgs">
-
-                    <div>
-                        <img src={Brasilit} alt="Logo Brasilit" />
-                    </div>
-                    <div>
-                        <img src={Ecophon} alt="Logo Ecophon" />
-                    </div>
-                    <div>
-                        <img src={Isover} alt="Logo Isover" />
-                    </div>
-                    <div>
-                        <img src={Owa} alt="Logo Owa" />
-                    </div>
-                    <div>
-                        <img src={Placo} alt="Logo Placo" />
-                    </div>
-                    <div>
-                        <img src={Quartzolit} alt="Logo Quartzolit" />
-                    </div>
-                    <div>
-                        <img src={Sonex} alt="Logo Sonex" />
-                    </div>
-                </div> */}
             </div>
         </>
     )
